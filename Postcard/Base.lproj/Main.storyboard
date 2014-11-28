@@ -82,6 +82,15 @@
                                     <action selector="sendMailButtonPressed:" destination="qXz-oO-d6V" eventType="touchUpInside" id="QgK-nV-Dfv"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mdo-gB-aEB">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="194" width="228" height="44"/>
+                                </variation>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fZ8-Wl-jIx">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -124,6 +133,7 @@
                             <mask key="subviews">
                                 <exclude reference="25E-hg-5bw"/>
                                 <exclude reference="FY0-Rn-fJh"/>
+                                <exclude reference="Mdo-gB-aEB"/>
                                 <exclude reference="fZ8-Wl-jIx"/>
                                 <exclude reference="A3c-TK-uLi"/>
                                 <exclude reference="2Qh-fs-j39"/>
@@ -134,6 +144,7 @@
                             <mask key="subviews">
                                 <include reference="25E-hg-5bw"/>
                                 <include reference="FY0-Rn-fJh"/>
+                                <include reference="Mdo-gB-aEB"/>
                                 <include reference="fZ8-Wl-jIx"/>
                                 <include reference="A3c-TK-uLi"/>
                                 <include reference="2Qh-fs-j39"/>
@@ -146,6 +157,7 @@
                         <outlet property="enterNameTextField" destination="A3c-TK-uLi" id="7j6-vE-KQ1"/>
                         <outlet property="mailButton" destination="FY0-Rn-fJh" id="yg0-Ls-BBt"/>
                         <outlet property="messageLabel" destination="25E-hg-5bw" id="jok-g4-DIw"/>
+                        <outlet property="nameLabel" destination="Mdo-gB-aEB" id="3Wh-nk-fAC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A7W-gg-4lX" userLabel="First Responder" sceneMemberID="firstResponder"/>
